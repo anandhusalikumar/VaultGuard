@@ -1,0 +1,25 @@
+# Local app data
+vaultguard.db
+vaultguard.db-journal
+vaultguard.db-shm
+vaultguard.db-wal
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated encrypted files and secret keys
+*.enc
+*.key
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
